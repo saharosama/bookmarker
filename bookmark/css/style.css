@@ -1,0 +1,37 @@
+:root{
+    --brown:#764f51;
+    --darkbrown:#8f5b4a;
+    --yellow:#f7d08c;
+}
+h3{
+    color:var(--brown) ;
+    font-family: 'Shadows Into Light', cursive;
+   
+}
+h2{
+    color: var(--brown); 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+   
+    .bg-color{
+        background-color:var(--yellow) ;
+    }
+    .btn{
+        background-color:var(--darkbrown);
+        color: white;
+    }
+    .fa-bookmark {
+        color: var(--darkbrown);
+    }
+    .item{
+        background-color: rgba(225, 190, 141, 0.188);
+    }
+    .fs-4{
+        cursor: pointer;
+    }
+    #visit{
+        color: darkgreen;
+    }
+    #delete{
+        color: gray;
+    }

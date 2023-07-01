@@ -1,0 +1,58 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Bookmarker</title>
+</head>
+<body class="bg-light " >
+    <header>
+		<div class="container">
+			<h3 class=" fw-bold color fs-1  mt-5 mb-3 text-capitalize ">bookmarker</h3>
+		</div>
+	</header>
+    <div class="container mt-5">
+	<div class="bookmark form-control w-75 m-auto p-4 bg-color  " >
+        <div class="row ">
+        
+        <div class="left col ">
+            <i class="fa-solid fa-bookmark fa-2xl mt-1"></i> 
+           
+                <h2 class="text-center mt-5 fw-bold fs-1 mb-3 text-capitalize">bookmark your favouirte site</h2>
+           
+        </div>
+        <div class="right col" id="form">
+            <div class="mb-3">
+          
+                <input type="text" class="form-control border-0 name" id="name" placeholder="Enter Site name" required>
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control border-0 url" id="siteLink" placeholder="Enter Url" required>
+              </div>
+              <div class="col">
+                <button class="btn w-100 " type="submit" onclick="add()">Bookmark</button>
+              </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container mt-3">
+<div class="row g-2 w-75 m-auto  " id="result">
+   
+ 
+
+
+</div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+<!-- -->
